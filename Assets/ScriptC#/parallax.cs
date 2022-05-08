@@ -9,7 +9,7 @@ public class parallax : MonoBehaviour
     private Rigidbody2D rb;
 
     private float width;
-    private float speed = -1f;
+    private float speed = -3f;
 
 
     void Start()
