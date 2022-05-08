@@ -8,7 +8,7 @@ public class coin : MonoBehaviour
     public Text MyscoreText;
     private int ScoreNum; 
 
-    // Start is called before the first frame update
+   
     void Start()
     {
 
@@ -17,5 +17,14 @@ public class coin : MonoBehaviour
         
     }
 
+    private void OntriggerEnter2D(Collider2D Coin)
+    {
+        if (Coin.tag == "Bitcoin02")
+        {
+            ScoreNum += 1;
+            Destroy(Coin.gameObject);
+            MyscoreText.text = "Score" + ScoreNum;
+        }
+    }
    
 }
