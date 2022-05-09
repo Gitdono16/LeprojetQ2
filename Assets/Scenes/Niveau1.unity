@@ -443,10 +443,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 378690545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56acf213cb7f5a04eb526faffe4e3614, type: 3}
+  m_Script: {fileID: 11500000, guid: 19d4f3927cb605d469edfb6332756ee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyscoreText: {fileID: 997869197}
+  Affichescore: {fileID: 997869197}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,7 +1907,7 @@ GameObject:
   - component: {fileID: 819947288}
   m_Layer: 0
   m_Name: Coin
-  m_TagString: Bitcoin02
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2025,7 +2025,7 @@ GameObject:
   - component: {fileID: 997869198}
   - component: {fileID: 997869197}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Affichescore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2047,7 +2047,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -349, y: 302}
+  m_AnchoredPosition: {x: -265, y: 121}
   m_SizeDelta: {x: 228.82, y: 52.1207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &997869197

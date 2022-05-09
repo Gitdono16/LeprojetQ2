@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Bitcoin
   - Bitcoin02
+  - coin
   layers:
   - Default
   - TransparentFX
