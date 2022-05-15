@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bitcoin02
   - coin
+  - Debut
   layers:
   - Default
   - TransparentFX
